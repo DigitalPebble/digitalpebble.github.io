@@ -1,0 +1,16 @@
+# robots.txt file created at http://www.searchenginepromotionhelp.com/
+# Fri, 13 Apr 2007 05:49:02 -0400
+
+Sitemap: http://www.digitalpebble.com/sitemap.xml
+
+# Exclude Files From All Robots:
+
+User-agent: *
+Disallow: /IR%20Course/
+Disallow: /IR Course/
+Disallow: /IR\ Course/
+
+User-agent: baiduspider
+Disallow: /
+
+# End robots.txt file

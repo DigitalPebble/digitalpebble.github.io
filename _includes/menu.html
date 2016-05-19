@@ -9,28 +9,46 @@
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td align="left" valign="middle"><!-- #BeginEditable "menu" -->
+      <td align="left" valign="middle">
 
         <table border="0" cellpadding="0" cellspacing="0">
           <tbody>
             <tr>
-              <td><a href="index.html"><img name="Home"
-                src="./img/menu/home2.png" border="0"></a></td>
+              <td><a href="index.html">
+              {% if page.slug == "home" %}
+                  <img name="Home" src="./img/menu/home2.png" border="0">
+              {% else %}
+                  <img name="Home" src="./img/menu/home1.png" border="0">
+              {% endif %}
+              </a></td>
               <td>&nbsp;</td>
-              <td><a href="solutions.html"><img name="Solutions"
-                src="./img/menu/solutions1.png" border="0"></a></td>
+              <td><a href="solutions.html">
+              {% if page.slug == "solutions" %}
+                  <img name="Solutions" src="./img/menu/solutions2.png" border="0">
+              {% else %}
+                  <img name="Solutions" src="./img/menu/solutions1.png" border="0">
+              {% endif %}
+              </a></td>
               <td>&nbsp;</td>
-             <td><a href="references.html"><img name="Clients"
-                src="./img/menu/clients1.png" border="0"></a></td>
+             <td><a href="references.html">
+              {% if page.slug == "clients" %}
+                  <img name="Clients" src="./img/menu/clients2.png" border="0">
+              {% else %}
+                  <img name="Clients" src="./img/menu/clients1.png" border="0">
+              {% endif %}
+              </a></td>
               <td>&nbsp;</td>
-              <td><a href="contact.html"><img src="img/menu/contact1.png"
-                style="border: 0px solid ; width: 108px; height: 32px;"
-                alt="" name="Contact" onload=""></a></td>
+              <td><a href="contact.html">
+              {% if page.slug == "contact" %}
+                  <img name="Contact" src="./img/menu/contact2.png" border="0">
+              {% else %}
+                  <img name="Contact" src="./img/menu/contact1.png" border="0">
+              {% endif %}
+              </a></td>
               <td>&nbsp;</td>
             </tr>
           </tbody>
         </table>
-        <!-- #EndEditable -->
       </td>
     </tr>
     <tr>

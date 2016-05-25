@@ -1,5 +1,7 @@
 
-body {font: 8pt/16pt Arial, Helvetica, sans-serif; }
+body {   
+   font-family: Arial, Helvetica, sans-serif;
+}
 
 a {
    color: #990000;

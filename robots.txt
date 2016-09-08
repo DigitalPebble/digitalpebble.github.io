@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /storm-crawler/
+
+User-agent: baiduspider
+Disallow: /
+
+Sitemap: http://www.digitalpebble.com/sitemap.xml

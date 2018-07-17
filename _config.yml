@@ -8,7 +8,7 @@
 # Site settings
 title: DigitalPebble
 email: contact@digitalpebble.com
-description: DigitalPebble Ltd is a consultancy specialised in web crawling, natural language processing, information retrieval and extraction. Our expertise is based on open source solutions, such as Nutch, Gate or SOLR.
+description: DigitalPebble Ltd is a consultancy specialised in web crawling, natural language processing, information retrieval and extraction. Our expertise is based on open source solutions, such as StormCrawler, Apache Nutch, GATE, Elasticsearch, Hadoop or Storm.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://digitalpebble.com" # the base hostname & protocol for your site
 twitter_username: digitalpebble

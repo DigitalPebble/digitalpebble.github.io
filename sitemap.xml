@@ -11,24 +11,4 @@
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>http://digitalpebble.com/index.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://digitalpebble.com/solutions.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://digitalpebble.com/references.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://digitalpebble.com/contact.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
 </urlset>

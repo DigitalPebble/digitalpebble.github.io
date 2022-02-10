@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+    {% include header.html %}
+
+    
+    
+    <section id="home_banner"  style="background-image: url({{site.baseurl}}{{ page.banner-image }});" class="main_banner_homepage">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <h1 class="text-white p_b_0">{{ page.banner-heading }}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about_us_top" class="p_t_70">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="inner_wrapper">
+              <h2 class="text-center p_t_30" data-aos="fade-up" data-aos-once="ture">{{page.about-us-heading}}</h2>
+              <div class="content_wrapper" data-aos="fade-up" data-aos-once="ture">
+                {{page.about-us-description | markdownify}}
+              </div>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <div class="inner_wrapper">
+                <ul>
+                  <li data-aos="fade-up" data-aos-once="ture">
+                    <div>
+                      <img src="{{site.baseurl}}{{page.feature-1-image}}" alt="{{ page.feature-1-heading }}" class="img-fluid">
+                      <h5>{{ page.feature-1-heading }}</h5>
+                    </div>
+                   
+                  </li>
+                  <li data-aos="fade-up" data-aos-once="ture">
+                    <div>
+                      <img src="{{site.baseurl}}{{page.feature-2-image}}" alt="{{ page.feature-2-heading }}" class="img-fluid">
+                      <h5>{{ page.feature-2-heading }}</h5>
+                    </div>
+                    
+                  </li>
+                  <li data-aos="fade-up" data-aos-once="ture">
+                    <div>
+                      <img src="{{site.baseurl}}{{page.feature-3-image}}" alt="{{ page.feature-3-heading }}" class="img-fluid">
+                      <h5>{{ page.feature-3-heading }}</h5>
+                    </div>
+                   
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s4" class="p_t_30 p_b_40">
+      <div class="container">
+        <div class="col">
+          <div class="row">
+            <div class="inner_wrapper">
+              <ul>
+                <li id="webcrawling" class="inner_navigation"  data-aos="fade-up">
+                    <div class="left">
+                      <img src="{{site.baseurl}}{{page.webcrawling-image}}" alt="{{ page.webcrawling-heading }}" class="img-fluid fadeup">
+                    </div>
+                    <div class="right">
+                      <div class="content">
+                        <h3>{{page.webcrawling-heading}}</h3>
+                        {{page.webcrawling-description | markdownify}}
+                      </div>
+                    </div>
+                </li>
+
+                <li id="search" class="inner_navigation" data-aos="fade-up">
+                  <div class="left">
+                    <img src="{{site.baseurl}}{{page.search-image}}" alt="{{ page.search-heading }}" class="img-fluid">
+                  </div>
+                  <div class="right">
+                    <div class="content">
+                      <h3>{{page.search-heading}}</h3>
+                      {{page.search-description | markdownify}}
+                    </div>
+                  </div>
+                </li>
+
+                <li id="big_data" class="inner_navigation" data-aos="fade-up">
+                  <div class="left">
+                    <img src="{{site.baseurl}}{{page.big_data-image}}" alt="{{ page.big_data-heading }}" class="img-fluid">
+                  </div>
+                  <div class="right">
+                    <div class="content">
+                      <h3>{{page.big_data-heading}}</h3>
+                      {{page.big_data-description | markdownify}}
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about_us" class="p_b_60 inner_navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="inner_wrapper">
+               <img src="{{site.baseurl}}{{page.about-bottom-image}}" alt="{{ page.about-bottom-heading }}" class="img-fluid" data-aos="fade-up">
+
+               <h3 class="text-center p_t_50 p_b_30" data-aos="fade-up" data-aos-once="ture">{{page.about-bottom-heading }}</h3>
+               <div class="content p_b_60" data-aos="fade-up" data-aos-once="ture">
+                 {{page.about-bottom-description | markdownify}}
+               </div>
+                 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="references" class="p_t_70 p_b_50 inner_navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center p_b_30" data-aos="fade-up"  data-aos-once="ture">{{page.references-heading}}</h2>
+
+
+            <ul class="refrences_slider" >
+              {% assign references = site.references %}
+                  {% for references in site.references  %}
+                    <li>
+                      <div class="inner_wrapper">
+                        <div class="inner">
+                          <div class="img_wrapper">
+                            <img src="{{site.baseurl}}{{references.image}}" alt="{{references.image-alt}}" class="img-fluid">
+                            <a href="{{ references.mainLink }}" target="_blank"></a>
+                          </div>
+                            <div class="content">
+                              {{references.description | markdownify}}
+                             
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+                 {% endfor %}
+            </ul> 
+
+            <div class="last_cta p_t_100" >
+              <a href="mailto:{{page.cta-link}}" >{{page.cta-text}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+
+    
+
+   
+
+    {% include scripts.html %}
+    
+    {% include footer.html %}
+  </body>
+</html> 

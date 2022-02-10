@@ -1,0 +1,41 @@
+---
+title: Page Not Found | DigitalPebble 
+permalink: "/404.html"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+    {% include header.html %}
+
+    <section id="main_banner" style="background-image: url(/images/banner.png);" class="error_page_banner">
+      <div class="banner_outer_wrapper d-flex align-items-center p_t_50 p_b_50"> 
+        <div class="container container-lg">
+          <div class="row">
+            <div class="banner_inner_wrapper col-12">
+              <div class="banner_alignment">
+                  <h5 class="text-center">OOPS! Looks like the page you’re looking for no longer exists
+                  </h5>
+                  <h1 class="text-center">404</h1>
+                  <h5 class="text-center" >Don’t worry. Since you’re valuable to us, we will bring you back to safety.
+                  </h5>
+                  <div class="cta_wrapper">
+                    <a href="{{site.baseurl}}"  class="yellow_cta">Go back to Homepage</a>
+                  </div>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div> 
+      <div class="overlay"></div>
+    </section>  
+
+
+
+    {% include scripts.html %}
+    {% include footer.html %}  
+  </body>
+</html> 

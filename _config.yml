@@ -1,18 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: DigitalPebble
+---
+title: Digital Pebble
+timezone: UTC
+collections:
+  references:
+    title: References
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: references
+  values:
+    main-description: 
+    title: 
+    image: 
+    image-alt:
+    sitemap: false
 email: contact@digitalpebble.com
-description: DigitalPebble Ltd is a consultancy specialised in web crawling, natural language processing, information retrieval and extraction. Our expertise is based on open source solutions, such as StormCrawler, Apache Nutch, GATE, Elasticsearch, Hadoop or Storm.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://digitalpebble.com" # the base hostname & protocol for your site
-twitter_username: digitalpebble
-github_username:  digitalpebble
-
-# Build settings
+meta-description: DigitalPebble can help your organisation by advising on best practice and identifying suitable resources, 
+  designing scalable solutions as well as implementing them. We can help you deploy and monitor your project on your premises or on the cloud.
+baseurl: 
+sass:
+  sass_dir: _sass
+  style: compressed
 markdown: kramdown
+permalink: "/blog/:title"
+theme: minima
+exclude:
+- Gemfile.lock
+- node_modules
+plugins:
+- jekyll-feed
+- jekyll-seo-tag

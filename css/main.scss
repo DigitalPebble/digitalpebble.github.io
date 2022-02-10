@@ -1,0 +1,23 @@
+---
+---
+
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import "reset";
+@import "variables";
+@import "typography";
+@import "colorvariable";
+@import "bootstrap/bootstrap";
+// @import "fontawesome/fontawesome";
+// @import "fontawesome/fa-regular";
+// @import "fontawesome/fa-solid";
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+@import "fontawesome/light";
+@import "fontawesome/regular";
+//@import "cookie";
+@import "typography";
+@import "custom";

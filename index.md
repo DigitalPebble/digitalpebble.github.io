@@ -1,7 +1,7 @@
 ---
 title: DigitalPebble
 meta-description: DigitalPebble Ltd is a consultancy specialised in web crawling, natural language processing, search and 
-  machine learning. Our expertise is based on open source solutions, such as Apache Nutch, StormCrawler, GATE, ElasticSearch or SOLR.
+  machine learning. Our expertise is based on open source solutions, such as Apache Nutch, StormCrawler, OpenSearch, ElasticSearch or SOLR.
 meta-keywords: DigitalPebble
 banner-image: "/images/banner.png"
 banner-heading: Unique challenges need bespoke solutions
@@ -25,7 +25,7 @@ webcrawling-description: |-
 search-image: "/images/search-result.png"
 search-heading: Search
 search-description: |-
-  We have a large experience of using leading search tools such as [Elasticsearch](https://www.elastic.co/elasticsearch/){:target='_blank'} or [Apache SOLR](https://solr.apache.org/){:target='_blank'}.
+  We have a large experience of using leading search tools such as [Elasticsearch](https://www.elastic.co/elasticsearch/){:target='_blank'}, [OpenSearch](https://opensearch.org/){:target='_blank'} or [Apache SOLR](https://solr.apache.org/){:target='_blank'}.
  
   Whether you want to index and search texts or any other type of documents, we can help you to design a *search solution* to fit with the rest of your architecture.
 

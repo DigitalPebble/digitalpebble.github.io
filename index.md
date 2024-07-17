@@ -43,7 +43,7 @@ about-bottom-heading: Julien Nioche - Director
 about-bottom-description: |-
   Having studied Russian language and culture in Paris and taught French in a school in Kyiv, Ukraine, Julien went on to graduate in Text Engineering and Natural Language Processing. He moved to the UK to work as a researcher at the University of Sheffield in 2005 and founded DigitalPebble in 2008.
 
-  Julien has been involved in several open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}, and was the PMC chair for [Apache Nutch](https://nutch.apache.org/){:target='_blank'}. He is an Emeritus member of the Apache Software Foundation.
+  Julien has been involved in several open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}, and was the PMC chair for [Apache Nutch](https://nutch.apache.org/){:target='_blank'}. He is a member of the Apache Software Foundation.
 
   Julien runs *workshops* on web crawling, speaks at [conferences](https://www.youtube.com/playlist?list=PLiqxzwp5B4ZmK1VDjSsPajYxsnFWEvWQa){:target='_blank'} and reviews technical books. He has over 20 years experience in the Java programming language.
 references-heading: References

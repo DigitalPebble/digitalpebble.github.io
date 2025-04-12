@@ -16,28 +16,22 @@ feature-2-image: "/images/range-of-expertise.svg"
 feature-2-heading: Range of expertise
 feature-3-image: "/images/proven-track-record.svg"
 feature-3-heading: Proven track record
-webcrawling-image: "/images/web-crawling-new.png"
-webcrawling-heading: Web Crawling
-webcrawling-description: |-
+greensoftware-image: "/images/greensoftware.png"
+greensoftware-heading: Green Software
+greensoftware-description: |-
   We are the authors and maintainers of [StormCrawler](http://stormcrawler.net/){:target="_blank"}, one of the leading open-source solutions for web crawling. Used by numerous companies all over the world, it is both *scalable and highly configurable*.
-
   We can help you customise [StormCrawler](http://stormcrawler.net/){:target='_blank'} and run it on your premises or in the cloud, or, alternatively, DigitalPebble can run it on your behalf.
-search-image: "/images/search-result.png"
-search-heading: Search
-search-description: |-
-  We have a large experience of using leading search tools such as [Elasticsearch](https://www.elastic.co/elasticsearch/){:target='_blank'}, [OpenSearch](https://opensearch.org/){:target='_blank'} or [Apache SOLR](https://solr.apache.org/){:target='_blank'}.
- 
-  Whether you want to index and search texts or any other type of documents, we can help you to design a *search solution* to fit with the rest of your architecture.
 
-  Some of our clients have billions of documents indexed, and with our solid background in *Natural Language Processing* and *Machine Learning*, there is a lot we can do to enrich your documents.
-big_data-image: "/images/big-data-new.png"
-big_data-heading: Big Data
-big_data-description: |-
+greenops-image: "/images/green-ops.png"
+greenops-heading: GreenOps
+greenops-description: |-
   Processing data on a large scale either in streaming or batch can be done with platforms such as [Apache Flink](https://flink.apache.org/){:target="_blank"} or [Apache Storm](https://storm.apache.org/){:target="_blank"}.
 
-  In fact, we have built some of our [open source](https://github.com/digitalpebble){:target='_blank'} solutions on these platforms and have a large experience of using them for our clients.
+finops-image: "/images/finops.png"
+finops-heading: FinOps
+finops-description: |-
+  We have a large experience of using leading search tools such as [Elasticsearch](https://www.elastic.co/elasticsearch/){:target='_blank'}, [OpenSearch](https://opensearch.org/){:target='_blank'} or [Apache SOLR](https://solr.apache.org/){:target='_blank'}.
 
-  Combined with our know-how and *expertise* in cloud computing, we are confident we can help you deliver your project, no matter how much data you have.
 about-bottom-image: "/images/julien-nioche.png"
 about-bottom-heading: Julien Nioche - Director
 about-bottom-description: |-
@@ -45,9 +39,9 @@ about-bottom-description: |-
 
   Julien has been involved in several open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}, and was the PMC chair for [Apache Nutch](https://nutch.apache.org/){:target='_blank'}. He is a member of the Apache Software Foundation.
 
-  Julien runs *workshops* on web crawling, speaks at [conferences](https://www.youtube.com/playlist?list=PLiqxzwp5B4ZmK1VDjSsPajYxsnFWEvWQa){:target='_blank'} and reviews technical books. He has over 20 years experience in the Java programming language.
+  Julien is a certified FinOps practitioner from the FinOps foundation and is a member of Boavizta and the GreenSoftware Foundation.
 references-heading: References
-references-image: "/images/polecat.svg"
+references-image: "/images/CameraForensics.png"
 cta-text: GET IN TOUCH 
 cta-link: 'contact@digitalpebble.com'
 layout: homepage

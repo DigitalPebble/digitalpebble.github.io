@@ -1,15 +1,14 @@
 ---
 title: DigitalPebble
-meta-description: DigitalPebble Ltd is a consultancy specialised in web crawling, natural language processing, search and 
-  machine learning. Our expertise is based on open source solutions, such as Apache Nutch, StormCrawler, OpenSearch, ElasticSearch or SOLR.
-meta-keywords: DigitalPebble
+meta-description: DigitalPebble Ltd is a consultancy specialised in green software, greenops and finops.
+meta-keywords: DigitalPebble, greenops, green ops, green software, finops
 banner-image: "/images/banner.png"
-banner-heading: Unique challenges need bespoke solutions
-about-us-heading: Our unique expertise covers all aspects of a document’s life cycle, from web-wide crawling and collection, 
-  content analysis, filtering and categorization to indexing.
+banner-heading: Unique challenges need a unique expertise
+about-us-heading:   We speak the language of both your sustainability and technical teams, bridging the gap to help drive the cultural change your organisation needs to achieve its financial and sustainability goals.
 about-us-description: |-
- *DigitalPebble* can help your organisation by advising on *best practice* and identifying suitable
-  resources, designing scalable solutions as well as implementing them. We can help you deploy and monitor your project on your premises or on the [cloud](https://aws.amazon.com/){:target='_blank'}.
+  *DigitalPebble* helps organisations measure, manage, and reduce both the financial and environmental impact of their cloud and on-premise digital activities.
+  This includes recommending third-party tools—commercial or open-source—as well as advising on best practices, methodologies, and organisational patterns.
+  With proven expertise in software development and architecture, we offer technical recommendations that deliver immediate results, lowering both costs and carbon footprints.
 feature-1-image: "/images/open-source-leader.svg"
 feature-1-heading: Open source leader
 feature-2-image: "/images/range-of-expertise.svg"
@@ -39,7 +38,7 @@ about-bottom-description: |-
 
   Julien has been involved in several open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}, and was the PMC chair for [Apache Nutch](https://nutch.apache.org/){:target='_blank'}. He is a member of the Apache Software Foundation.
 
-  Julien is a certified FinOps practitioner from the FinOps foundation and is a member of Boavizta and the GreenSoftware Foundation.
+  Julien is a certified FinOps practitioner from the [FinOps foundation](https://www.finops.org/){:target='_blank'} and is a member of [Boavizta](https://boavizta.org/en){:target='_blank'} and the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank'}.
 references-heading: References
 references-image: "/images/CameraForensics.png"
 cta-text: GET IN TOUCH 

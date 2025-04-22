@@ -36,10 +36,13 @@ about-bottom-heading: Julien Nioche - Director
 about-bottom-description: |-
   Having studied Russian language and culture in Paris and taught French in a school in Kyiv, Ukraine, Julien went on to graduate in Text Engineering and Natural Language Processing. He moved to the UK to work as a researcher at the University of Sheffield in 2005 and founded DigitalPebble in 2008.
 
-  Julien has been involved in several open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}, and was the PMC chair for [Apache Nutch](https://nutch.apache.org/){:target='_blank'}. He is a member of the Apache Software Foundation.
+  Julien has a strong technical background, having 20+ years experience as a software developer. Throughout his career, he has been involved in many open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}.
+  With DigitalPebble, Julien has helped build solutions for dozens of organisations.
 
-  Julien is a certified FinOps practitioner from the [FinOps foundation](https://www.finops.org/){:target='_blank'} and is a member of [Boavizta](https://boavizta.org/en){:target='_blank'} and the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank'}.
-references-heading: References
+  Combining a personal passion for sustainability and environmental issues with his technical skills, Julien now focuses on Green Software and GreenOps, helping organisations align their technology practices with climate-conscious goals.
+
+  Julien is a certified FinOps practitioner from the [FinOps foundation](https://www.finops.org/){:target='_blank'} and is a member of [Boavizta](https://boavizta.org/en){:target='_blank'}, the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank'} and  the [Apache Software Foundation](https://apache.org/){:target='_blank'}.
+references-heading: Testimonials
 references-image: "/images/CameraForensics.png"
 cta-text: GET IN TOUCH 
 cta-link: 'contact@digitalpebble.com'

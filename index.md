@@ -7,7 +7,6 @@ banner-heading: We help you make a difference
 about-us-heading:   We speak the language of your sustainability and technical teams, bridging the gap to help drive the cultural change your organisation needs to achieve its financial and sustainability goals.
 about-us-description: |-
   *DigitalPebble* helps organisations measure, manage and reduce both the financial and environmental impact of their cloud and on-premise activities.
-  This includes recommending third-party tools — commercial or open-source — as well as advising on best practices, methodologies and organisational patterns.
   With proven expertise in software development and architecture, we offer recommendations that deliver immediate results, lowering both costs and carbon footprints.
 feature-1-image: "/images/open-source-leader.svg"
 feature-1-heading: Technical excellence
@@ -20,8 +19,6 @@ greensoftware-heading: Green Software
 greensoftware-description: |-
   *Green software* focuses on creating applications and systems that prioritise *energy efficiency* and *environmental sustainability*.  By optimising code, infrastructure and development practices, green software drives the reduction in energy consumption and carbon emissions. 
   With our rich technical expertise in architecture and software development, we help organisations create *innovative solutions* that drive business success while *minimising environmental impact*. 
-  From scalable, energy-efficient cloud architectures to eco-conscious coding standards, we empower our customers to reduce the carbon footprint of their software—without compromising performance or scalability.
-
 greenops-image: "/images/green-ops.png"
 greenops-heading: GreenOps
 greenops-description: |-
@@ -31,7 +28,7 @@ greenops-description: |-
 finops-image: "/images/finops.png"
 finops-heading: FinOps
 finops-description: |-
-  FinOps is an *operational framework* and *cultural practice* which maximises the business value of cloud and technology, enables timely data-driven decision making and creates financial accountability through collaboration between engineering, finance and business teams.
+  FinOps is an *operational framework* and *cultural practice* which maximises the business value of cloud through collaboration between engineering, finance and business teams.
   As FinOps certified practitioners, we will help you *inform*, *optimise* and *operate* changes that will drive your cloud costs down, whether it is as a one-off review or longer term assistance with establishing a culture of FinOps within your organisation.
 
 about-bottom-image: "/images/julien-nioche.png"

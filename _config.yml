@@ -19,8 +19,7 @@ defaults:
     image-alt:
     sitemap: false
 email: contact@digitalpebble.com
-meta-description: DigitalPebble can help your organisation by advising on best practice and identifying suitable resources, 
-  designing scalable solutions as well as implementing them. We can help you deploy and monitor your project on your premises or on the cloud.
+meta-description:  DigitalPebble Ltd is a consultancy specialised in green software, greenops and finops.
 baseurl: 
 sass:
   sass_dir: _sass

@@ -24,6 +24,7 @@ greenops-heading: GreenOps
 greenops-description: |-
   *Measuring the environmental impact of your software can be challenging*. Cloud providers often offer incomplete, non-actionable, or even misleading data.
   We help you choose the right provider and collect the reliable data needed to build a complete, accurate and timely picture of your cloud usage’s footprint. We analyse this data and deliver *actionable recommendations* — enabling your teams to turn insights into action and make *measurable progress* toward decarbonisation.
+  We are the authors of [SPRUCE](https://opensourcegreenops.cloud/), an open source project which helps estimate the environmental impact of running services on AWS.
 
 finops-image: "/images/finops.png"
 finops-heading: FinOps

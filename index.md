@@ -33,16 +33,16 @@ finops-description: |-
   As FinOps certified practitioners, we will help you *inform*, *optimise* and *operate* changes that will drive your cloud costs down, whether it is as a one-off review or longer term assistance with establishing a culture of FinOps within your organisation.
 
 about-bottom-image: "/images/julien-nioche.png"
-about-bottom-heading: Julien Nioche - Director
+about-bottom-heading: Julien Nioche — Founder & Director
 about-bottom-description: |-
-  Having studied Russian language and culture in Paris and taught French in a school in Kyiv, Ukraine, Julien went on to graduate in Text Engineering and Natural Language Processing. He moved to the UK to work as a researcher at the University of Sheffield in 2005 and founded DigitalPebble in 2008.
+  Julien founded DigitalPebble in 2008. With *over 20 years of software engineering and architecture* experience across open source, research and consultancy, he brings a rare combination of technical depth and genuine sustainability conviction to every engagement.
 
-  Julien has a strong technical background, having 20+ years experience as a software developer. Throughout his career, he has been involved in many open source projects, mainly at the [Apache Software Foundation](https://apache.org/){:target='_blank'}.
-  With DigitalPebble, Julien has helped build solutions for dozens of organisations.
+  He is the author of [SPRUCE](https://opensourcegreenops.cloud/){:target='_blank'}, an open source tool for estimating the environmental footprint of running services on AWS, and has spent his career contributing to major open source projects at the [Apache Software Foundation](https://apache.org/){:target='_blank'}. With DigitalPebble, he has helped organisations across sectors understand, quantify and reduce both the financial and carbon impact of their cloud operations.
 
-  Combining a personal passion for sustainability and environmental issues with his technical skills, Julien helps organisations reach their decarbonisation targets.
+  What makes Julien's approach distinctive is a rare combination of *hands-on technical depth* and *genuine sustainability conviction*. He works across engineering, finance and sustainability teams — translating complex cloud data into clear, actionable recommendations that treat cost reduction and decarbonisation as two sides of the same problem, not competing priorities.
 
-  Julien is a certified FinOps practitioner from the [FinOps foundation](https://www.finops.org/){:target='_blank'} and is a member of [Boavizta](https://boavizta.org/en){:target='_blank'}, the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank'} and  the [Apache Software Foundation](https://apache.org/){:target='_blank'}.
+  Julien is a *certified FinOps practitioner* from the [FinOps Foundation](https://www.finops.org/){:target='_blank'}, a Champion at the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank'} and a member of [Boavizta](https://boavizta.org/en){:target='_blank'} and the [Apache Software Foundation](https://apache.org/){:target='_blank'}.
+
 references-heading: Testimonials
 references-image: "/images/CameraForensics.png"
 cta-text: GET IN TOUCH 

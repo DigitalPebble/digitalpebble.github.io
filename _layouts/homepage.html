@@ -23,8 +23,8 @@
         <div class="row">
           <div class="col">
             <div class="inner_wrapper">
-              <h2 class="text-center p_t_30" data-aos="fade-up" data-aos-once="ture">{{page.about-us-heading}}</h2>
-              <div class="content_wrapper" data-aos="fade-up" data-aos-once="ture">
+              <h2 class="text-center p_t_30" data-aos="fade-up" data-aos-once="true">{{page.about-us-heading}}</h2>
+              <div class="content_wrapper" data-aos="fade-up" data-aos-once="true">
                 {{page.about-us-description | markdownify}}
               </div>
                
@@ -40,26 +40,26 @@
           <div class="col">
               <div class="inner_wrapper">
                 <ul>
-                  <li data-aos="fade-up" data-aos-once="ture">
+                  <li data-aos="fade-up" data-aos-once="true">
                     <div>
                       <img src="{{site.baseurl}}{{page.feature-1-image}}" alt="{{ page.feature-1-heading }}" class="img-fluid">
                       <h5>{{ page.feature-1-heading }}</h5>
                     </div>
-                   
+
                   </li>
-                  <li data-aos="fade-up" data-aos-once="ture">
+                  <li data-aos="fade-up" data-aos-once="true">
                     <div>
                       <img src="{{site.baseurl}}{{page.feature-2-image}}" alt="{{ page.feature-2-heading }}" class="img-fluid">
                       <h5>{{ page.feature-2-heading }}</h5>
                     </div>
-                    
+
                   </li>
-                  <li data-aos="fade-up" data-aos-once="ture">
+                  <li data-aos="fade-up" data-aos-once="true">
                     <div>
                       <img src="{{site.baseurl}}{{page.feature-3-image}}" alt="{{ page.feature-3-heading }}" class="img-fluid">
                       <h5>{{ page.feature-3-heading }}</h5>
                     </div>
-                   
+
                   </li>
                 </ul>
               </div>
@@ -70,8 +70,8 @@
 
     <section id="s4" class="p_t_30 p_b_40">
       <div class="container">
-        <div class="col">
-          <div class="row">
+        <div class="row">
+          <div class="col">
             <div class="inner_wrapper">
               <ul>
                 <li id="greensoftware" class="inner_navigation"  data-aos="fade-up">
@@ -125,8 +125,8 @@
             <div class="inner_wrapper">
                <img src="{{site.baseurl}}{{page.about-bottom-image}}" alt="{{ page.about-bottom-heading }}" class="img-fluid" data-aos="fade-up">
 
-               <h3 class="text-center p_t_50 p_b_30" data-aos="fade-up" data-aos-once="ture">{{page.about-bottom-heading }}</h3>
-               <div class="content p_b_60" data-aos="fade-up" data-aos-once="ture">
+               <h3 class="text-center p_t_50 p_b_30" data-aos="fade-up" data-aos-once="true">{{page.about-bottom-heading }}</h3>
+               <div class="content p_b_60" data-aos="fade-up" data-aos-once="true">
                  {{page.about-bottom-description | markdownify}}
                </div>
                  
@@ -140,21 +140,20 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h2 class="text-center p_b_30" data-aos="fade-up"  data-aos-once="ture">{{page.references-heading}}</h2>
+            <h2 class="text-center p_b_30" data-aos="fade-up" data-aos-once="true">{{page.references-heading}}</h2>
 
 
             <ul class="refrences_slider" >
-              {% assign references = site.references %}
-                  {% for references in site.references  %}
+              {% for reference in site.references %}
                     <li>
                       <div class="inner_wrapper">
                         <div class="inner">
                           <div class="img_wrapper">
-                            <img src="{{site.baseurl}}{{references.image}}" alt="{{references.image-alt}}" class="img-fluid">
-                            <a href="{{ references.mainLink }}" target="_blank"></a>
+                            <img src="{{site.baseurl}}{{reference.image}}" alt="{{reference.image-alt}}" class="img-fluid">
+                            <a href="{{ reference.mainLink }}" target="_blank"></a>
                           </div>
                             <div class="content">
-                              {{references.description | markdownify}}
+                              {{reference.description | markdownify}}
                              
                             </div>
                         </div>

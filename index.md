@@ -4,6 +4,8 @@ meta-description: DigitalPebble Ltd is a consultancy specialised in green softwa
 meta-keywords: DigitalPebble, greenops, green ops, green software, finops
 banner-image: "/images/banner.png"
 banner-heading: Turning good intentions into real impact.
+banner-cta-text: Book a discovery call
+banner-cta-link: 'https://calendar.app.google/pCDZzN7Ro55xwb6f8'
 about-us-heading: Achieving your sustainability and financial goals takes more than good intentions — it takes cultural change. We speak the language of your technical, sustainability and finance teams to make it happen.
 about-us-description: |-
   *DigitalPebble* helps organisations measure, manage and reduce both the financial and environmental impact of their cloud and on-premise activities.

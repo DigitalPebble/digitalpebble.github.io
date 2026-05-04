@@ -26,6 +26,11 @@
               <h2 class="text-center p_t_30" data-aos="fade-up" data-aos-once="true">{{page.about-us-heading}}</h2>
               <div class="content_wrapper" data-aos="fade-up" data-aos-once="true">
                 {{page.about-us-description | markdownify}}
+                {% if page.banner-cta-link %}
+                  <div class="discovery_cta" data-aos="fade-up" data-aos-once="true">
+                    <a href="{{ page.banner-cta-link }}" target="_blank" rel="noopener">{{ page.banner-cta-text }}</a>
+                  </div>
+                {% endif %}
               </div>
                
             </div>

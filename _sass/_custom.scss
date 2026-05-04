@@ -185,13 +185,23 @@ h6.bold{
 MEDIA QUERIES
 *************/
 
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1320px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1500px;
+	}
+}
 @media (min-width: 1900px){
     .full_width {
         .container-fluid{
             max-width: 1500px;
         }
 	}
-	
+
 }
 @media (max-width: 1199.98px) {
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+    {% include header.html %}
+
+    {% assign banner_image = page.banner-image | default: "/images/banner.png" %}
+    <section id="home_banner" style="background-image: url({{site.baseurl}}{{ banner_image }});" class="main_banner_homepage">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="post_meta">
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+              {% if page.author %} &middot; {{ page.author }}{% endif %}
+            </p>
+            <h1 class="text-white p_b_0">{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="post_body" class="p_t_70 p_b_60">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <article class="post_content">
+              {{ content }}
+            </article>
+
+            <div class="post_back p_t_50">
+              <a href="{{ site.baseurl }}/blog/">&larr; Back to blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include scripts.html %}
+    {% include footer.html %}
+  </body>
+</html>

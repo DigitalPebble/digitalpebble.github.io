@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+    {% include header.html %}
+
+    {% assign banner_image = page.banner-image | default: "/images/banner.png" %}
+    <section id="home_banner" style="background-image: url({{site.baseurl}}{{ banner_image }});" class="main_banner_homepage">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-white p_b_0">{{ page.title }}</h1>
+            {% if page.subtitle %}
+              <p class="banner_subtitle">{{ page.subtitle }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="post_list" class="p_t_70 p_b_60">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            {% if site.posts.size == 0 %}
+              <p class="empty_state">No posts yet — check back soon.</p>
+            {% else %}
+              <ul class="post_index">
+                {% for post in site.posts %}
+                  <li>
+                    <article>
+                      <p class="post_meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+                        {% if post.author %} &middot; {{ post.author }}{% endif %}
+                      </p>
+                      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                      {% if post.excerpt %}
+                        <div class="post_excerpt">{{ post.excerpt }}</div>
+                      {% endif %}
+                      <p class="read_more">
+                        <a href="{{ post.url | relative_url }}">Read more &rarr;</a>
+                      </p>
+                    </article>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include scripts.html %}
+    {% include footer.html %}
+  </body>
+</html>

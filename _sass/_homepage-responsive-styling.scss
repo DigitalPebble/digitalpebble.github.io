@@ -25,7 +25,7 @@ MEDIA QUERIES
         margin-right: 15px;
     } 
   }
-  #s4 .inner_wrapper ul li .content p{
+  #services .inner_wrapper ul li .content p{
     font-size: 16px;
     line-height: 24px;
     a,em,span{
@@ -67,7 +67,7 @@ MEDIA QUERIES
     font-size: 18px;
     line-height: 32px;
   }
-  #s4 .inner_wrapper ul li{
+  #services .inner_wrapper ul li{
     flex-basis: 100%;
     max-width: 510px;
     .left,.right{
@@ -283,21 +283,11 @@ MEDIA QUERIES
     margin-top: 0;
   }
   #about_us_top{
-    padding-bottom: 140px;
+    padding-bottom: 50px;
     padding-top: 30px;
   }
-  #s3 ul{
-    margin-top: -100px;
-    li{
-      flex-basis: 100%;
-      max-width: 320px;
-      margin: 0 auto;
-      margin-bottom: 30px;
-      min-height: 200px;
-    }
-  } 
 
-  #s4 .inner_wrapper ul li{
+  #services .inner_wrapper ul li{
     flex-basis: 100%;
     .left,.right{
       flex-basis: 100%;
@@ -363,7 +353,7 @@ MEDIA QUERIES
         left: 50%;
     }   
 }
-#s4 .inner_wrapper ul li:nth-child(2n) .left img{
+#services .inner_wrapper ul li:nth-child(2n) .left img{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }

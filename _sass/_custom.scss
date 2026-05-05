@@ -554,7 +554,7 @@ body.header-active{
 }	
 
 #about_us_top{
-	padding-bottom: 225px;
+	padding-bottom: 70px;
 	background-color: #F5F5F5;
 	.inner_wrapper{
 		width: 85%;
@@ -589,31 +589,7 @@ body.header-active{
 	
 }
 
-#s3{
-	ul{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-		li{
-			background-color: $white;
-			flex-basis: 32%;
-			border: 1px solid $mainColor;
-			border-radius: 4px;
-			min-height: 292px;
-			justify-content: center;
-			text-align: center;
-			align-items: center;
-			display: flex;
-			flex-wrap: wrap;
-			margin-top: -175px;
-			img{
-				margin-bottom: 35px;
-			}
-		}
-	}
-}
-#s4{
+#services{
 	.inner_wrapper{
 		max-width: 1080px;
 		margin: 0 auto;
@@ -636,7 +612,7 @@ body.header-active{
 					flex-basis: 50%;
 				}
 				.content{
-					padding: 0 40px;
+					padding: 30px 40px;
 					p{
 						padding-bottom: 20px;
 

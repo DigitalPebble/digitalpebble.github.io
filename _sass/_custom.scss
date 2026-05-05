@@ -554,7 +554,7 @@ body.header-active{
 }	
 
 #about_us_top{
-	padding-bottom: 225px;
+	padding-bottom: 70px;
 	background-color: #F5F5F5;
 	.inner_wrapper{
 		width: 85%;
@@ -589,31 +589,7 @@ body.header-active{
 	
 }
 
-#s3{
-	ul{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-		li{
-			background-color: $white;
-			flex-basis: 32%;
-			border: 1px solid $mainColor;
-			border-radius: 4px;
-			min-height: 292px;
-			justify-content: center;
-			text-align: center;
-			align-items: center;
-			display: flex;
-			flex-wrap: wrap;
-			margin-top: -175px;
-			img{
-				margin-bottom: 35px;
-			}
-		}
-	}
-}
-#s4{
+#services{
 	.inner_wrapper{
 		max-width: 1080px;
 		margin: 0 auto;
@@ -636,7 +612,7 @@ body.header-active{
 					flex-basis: 50%;
 				}
 				.content{
-					padding: 0 40px;
+					padding: 30px 40px;
 					p{
 						padding-bottom: 20px;
 
@@ -1125,7 +1101,17 @@ footer{
             line-height: 30px;
             margin: 28px 0 12px;
         }
-        ul, ol{
+        ul{
+            list-style-type: disc;
+            margin: 0 0 22px 22px;
+            li{
+                margin-bottom: 8px;
+                &::marker{
+                    color: $dark;
+                }
+            }
+        }
+        ol{
             margin: 0 0 22px 22px;
             li{
                 margin-bottom: 8px;
@@ -1146,13 +1132,15 @@ footer{
             }
         }
         code{
-            background-color: $lightGrey;
+            background-color: $footerBlack;
+            color: $dark;
             padding: 2px 6px;
             border-radius: 3px;
             font-size: 15px;
+            font-weight: bold;
         }
         pre{
-            background-color: $whitesmoke;
+            background-color: $footerBlack;
             padding: 16px;
             border-radius: 4px;
             overflow-x: auto;
@@ -1160,6 +1148,7 @@ footer{
             code{
                 background: none;
                 padding: 0;
+                font-weight: bold;
             }
         }
         img{

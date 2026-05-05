@@ -1,38 +1,33 @@
 ---
 title: DigitalPebble
-meta-description: DigitalPebble Ltd is a consultancy specialised in green software, greenops and finops.
-meta-keywords: DigitalPebble, greenops, green ops, green software, finops
+meta-description: DigitalPebble Ltd is a consultancy specialised in green software and GreenOps — helping organisations measure, manage and reduce the environmental impact of their cloud activities.
+meta-keywords: DigitalPebble, GreenOps, green software, cloud sustainability, GreenOps consulting, GreenOps training, SPRUCE
 banner-image: "/images/banner.png"
 banner-heading: Turning good intentions into real impact.
 banner-cta-text: Book a discovery call
 banner-cta-link: 'https://calendar.app.google/pCDZzN7Ro55xwb6f8'
-about-us-heading: Achieving your sustainability and financial goals takes more than good intentions — it takes cultural change. We speak the language of your technical, sustainability and finance teams to make it happen.
+about-us-heading: Achieving your sustainability goals takes more than good intentions — it takes cultural change. We speak the language of your technical, sustainability and finance teams to make it happen.
 about-us-description: |-
-  *DigitalPebble* helps organisations measure, manage and reduce both the financial and environmental impact of their cloud and on-premise activities.
-  With proven expertise in software development and architecture, we offer recommendations that deliver immediate results, lowering both costs and carbon footprints.
-feature-1-image: "/images/open-source-leader.svg"
-feature-1-heading: Technical excellence
-feature-2-image: "/images/range-of-expertise.svg"
-feature-2-heading: Range of expertise
-feature-3-image: "/images/proven-track-record.svg"
-feature-3-heading: Proven track record
-greensoftware-image: "/images/greensoftware.png"
-greensoftware-heading: Green Software
-greensoftware-description: |-
-  *Green software* focuses on creating applications and systems that prioritise *energy efficiency* and *environmental sustainability*.  By optimising code, infrastructure and development practices, green software drives the reduction in energy consumption and carbon emissions. 
-  With our rich technical expertise in architecture and software development, we help organisations create *innovative solutions* that drive business success while *minimising environmental impact*. 
-greenops-image: "/images/green-ops.png"
-greenops-heading: GreenOps
-greenops-description: |-
-  *Measuring the environmental impact of your software can be challenging*. Cloud providers often offer incomplete, non-actionable, or even misleading data.
-  We help you choose the right provider and collect the reliable data needed to build a complete, accurate and timely picture of your cloud usage’s footprint. We analyse this data and deliver *actionable recommendations* — enabling your teams to turn insights into action and make *measurable progress* toward decarbonisation.
-  We are the authors of [SPRUCE](https://opensourcegreenops.cloud/), an open source project which helps estimate the environmental impact of running services on AWS.
-
-finops-image: "/images/finops.png"
-finops-heading: FinOps
-finops-description: |-
-  FinOps is an *operational framework* and *cultural practice* which maximises the business value of cloud through collaboration between engineering, finance and business teams.
-  As FinOps certified practitioners, we will help you *inform*, *optimise* and *operate* changes that will drive your cloud costs down, whether it is as a one-off review or longer term assistance with establishing a culture of FinOps within your organisation.
+  *DigitalPebble* helps organisations turn their *sustainability ambitions* into *measurable results* — reducing both the financial and environmental impact of their cloud and on-premise operations.
+  We work at the intersection of *Green Software*, *GreenOps* and *FinOps*. Decarbonisation and cost reduction aren't competing priorities — with the right approach, they reinforce each other.
+workshops-image: "/images/greensoftware.png"
+workshops-heading: Workshops & Training
+workshops-description: |-
+  Upskill your engineering, finance and sustainability teams through *hands-on workshops* on *GreenOps* (measuring and reducing the environmental footprint of cloud systems) and *FinOps* (cross-team collaboration to maximise the business value of cloud spend).
+  We walk practitioners through processing AWS *Cost and Usage Reports*, querying them with open source tools, and enriching them with environmental impact data using [SPRUCE](https://opensourcegreenops.cloud/) — our open source GreenOps platform.
+  A pragmatic, low-commitment way to build internal capability — and a natural starting point for larger engagements.
+advisory-image: "/images/green-ops.png"
+advisory-heading: Advisory
+advisory-description: |-
+  Measuring the environmental impact of cloud is *genuinely hard*. Provider data is incomplete or misleading, the tooling landscape is fragmented, and the standards are still emerging.
+  We start from the *context that already exists* in your organisation — the FinOps tools you've adopted, the sustainability objectives you're committed to, the teams already involved — and help you build a GreenOps practice that fits. We advise on *best practices*, *organisational patterns* (the right *roles*, *methodology* and *profiles to hire*), and both *commercial and open source tooling*. Vendor-neutral, evidence-based, and grounded in hands-on experience.
+  As certified *FinOps practitioners*, we treat cost and carbon as two sides of the same problem — most decarbonisation actions also reduce cloud spend.
+implementation-image: "/images/finops.png"
+implementation-heading: Implementation
+implementation-description: |-
+  Strategy without execution is just a slide deck. We design, deploy and operationalise the tooling that makes GreenOps real — from *data pipelines* and integrations to *dashboards* your teams will actually use.
+  Backed by *over 20 years of software engineering and architecture* and a deep *open source* background, we deliver the engineering work ourselves rather than handing it off.
+  Just as importantly, we bring a *rare cross-disciplinary profile* that bridges *management*, *engineering* and *FinOps* teams — turning measurement into *measurable progress* on both decarbonisation and cloud spend.
 
 about-bottom-image: "/images/julien-nioche.png"
 about-bottom-heading: Julien Nioche — Founder & Director

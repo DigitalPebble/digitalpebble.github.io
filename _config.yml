@@ -1,5 +1,6 @@
 ---
-title: Digital Pebble
+title: DigitalPebble
+tagline: GreenOps & Green Software Consultancy
 timezone: UTC
 collections:
   references:
@@ -9,18 +10,31 @@ collections:
     title: Uploads
     output: true
 defaults:
+# jekyll-seo-tag reads og:image from page.image only, so give every page a default
+- scope:
+    path: ''
+  values:
+    image: "/images/banner.png"
 - scope:
     path: ''
     type: references
   values:
-    main-description: 
-    title: 
-    image: 
+    main-description:
+    title:
+    image:
     image-alt:
     sitemap: false
 email: contact@digitalpebble.com
-meta-description:  DigitalPebble Ltd is a consultancy specialised in green software, greenops and finops.
-baseurl: 
+description: DigitalPebble Ltd is a consultancy specialised in green software, GreenOps and FinOps.
+url: https://digitalpebble.com
+baseurl:
+lang: en_GB
+logo: "/images/logo.png"
+social:
+  name: DigitalPebble Ltd
+  links:
+  - https://www.linkedin.com/company/digitalpebble-ltd/
+  - https://github.com/digitalpebble
 sass:
   sass_dir: _sass
   style: compressed
@@ -33,3 +47,4 @@ exclude:
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
+- jekyll-sitemap

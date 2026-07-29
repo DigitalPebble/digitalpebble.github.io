@@ -1,6 +1,6 @@
 ---
 title: DigitalPebble
-meta-description: DigitalPebble Ltd is a consultancy specialised in green software and GreenOps — helping organisations measure, manage and reduce the environmental impact of their cloud activities.
+description: DigitalPebble Ltd is a consultancy specialised in green software and GreenOps — helping organisations measure, manage and reduce the environmental impact of their cloud activities.
 meta-keywords: DigitalPebble, GreenOps, green software, cloud sustainability, GreenOps consulting, GreenOps training, SPRUCE
 banner-image: "/images/banner.png"
 banner-heading: Turning good intentions into real impact.

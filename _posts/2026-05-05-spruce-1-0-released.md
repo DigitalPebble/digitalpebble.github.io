@@ -1,7 +1,7 @@
 ---
 title: SPRUCE 1.0 is out
 author: Julien Nioche
-meta-description: SPRUCE, our open source greenops platform for estimating the environmental impact of services running on public cloud, has reached its 1.0 milestone.
+description: SPRUCE, our open source greenops platform for estimating the environmental impact of services running on public cloud, has reached its 1.0 milestone.
 layout: post
 ---
 

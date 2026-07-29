@@ -4,4 +4,4 @@ Disallow: /storm-crawler/
 User-agent: baiduspider
 Disallow: /
 
-Sitemap: http://digitalpebble.com/sitemap.xml
+Sitemap: https://digitalpebble.com/sitemap.xml

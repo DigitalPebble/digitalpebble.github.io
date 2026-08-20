@@ -5,9 +5,7 @@ description: SPRUCE, our open source greenops platform for estimating the enviro
 layout: post
 ---
 
-# SPRUCE 1.0 is out
-
-We are inaugurating this new version of the DigitalPebble blog with an exciting announcement: **SPRUCE 1.0** is out — a milestone that marks the project's transition from early-access versioning to a stable, production-ready, future-proof tool.
+SPRUCE has moved from early-access versioning to a stable, production-ready release. This 1.0 milestone is as much about foundations as it is about features.
 
 [SPRUCE](https://opensourcegreenops.cloud/) is an open-source GreenOps platform that enriches AWS Cost & Usage Reports (CUR) with carbon footprint and energy consumption data. It runs as an Apache Spark job and produces Parquet output ready for querying with DuckDB, Athena, or any Spark-compatible tool. Results can be explored through an interactive Streamlit dashboard or exported as static reports.
 

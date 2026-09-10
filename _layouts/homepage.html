@@ -28,7 +28,7 @@
                 {{page.about-us-description | markdownify}}
                 {% if page.banner-cta-link %}
                   <div class="discovery_cta" data-aos="fade-up" data-aos-once="true">
-                    <a href="{{ page.banner-cta-link }}" target="_blank" rel="noopener">{{ page.banner-cta-text }}</a>
+                    <a href="{{ page.banner-cta-link }}" target="_blank" rel="noopener noreferrer">{{ page.banner-cta-text }}</a>
                   </div>
                 {% endif %}
               </div>
@@ -47,7 +47,7 @@
               <ul>
                 <li id="workshops" class="inner_navigation"  data-aos="fade-up">
                     <div class="left">
-                      <img src="{{site.baseurl}}{{page.workshops-image}}" alt="{{ page.workshops-heading }}" class="img-fluid fadeup">
+                      <img src="{{site.baseurl}}{{page.workshops-image}}" alt="{{ page.workshops-heading }}" class="img-fluid fadeup" width="500" height="500" loading="lazy">
                     </div>
                     <div class="right">
                       <div class="content">
@@ -59,7 +59,7 @@
 
                 <li id="advisory" class="inner_navigation" data-aos="fade-up">
                   <div class="left">
-                    <img src="{{site.baseurl}}{{page.advisory-image}}" alt="{{ page.advisory-heading }}" class="img-fluid">
+                    <img src="{{site.baseurl}}{{page.advisory-image}}" alt="{{ page.advisory-heading }}" class="img-fluid" width="500" height="500" loading="lazy">
                   </div>
                   <div class="right">
                     <div class="content">
@@ -71,7 +71,7 @@
 
                 <li id="implementation" class="inner_navigation" data-aos="fade-up">
                   <div class="left">
-                    <img src="{{site.baseurl}}{{page.implementation-image}}" alt="{{ page.implementation-heading }}" class="img-fluid">
+                    <img src="{{site.baseurl}}{{page.implementation-image}}" alt="{{ page.implementation-heading }}" class="img-fluid" width="500" height="500" loading="lazy">
                   </div>
                   <div class="right">
                     <div class="content">
@@ -94,7 +94,7 @@
         <div class="row">
           <div class="col">
             <div class="inner_wrapper">
-               <img src="{{site.baseurl}}{{page.about-bottom-image}}" alt="{{ page.about-bottom-heading }}" class="img-fluid" data-aos="fade-up">
+               <img src="{{site.baseurl}}{{page.about-bottom-image}}" alt="{{ page.about-bottom-heading }}" class="img-fluid" width="304" height="285" loading="lazy" data-aos="fade-up">
 
                <h3 class="text-center p_t_50 p_b_30" data-aos="fade-up" data-aos-once="true">{{page.about-bottom-heading }}</h3>
                <div class="content p_b_60" data-aos="fade-up" data-aos-once="true">
@@ -120,8 +120,8 @@
                       <div class="inner_wrapper">
                         <div class="inner">
                           <div class="img_wrapper">
-                            <img src="{{site.baseurl}}{{reference.image}}" alt="{{reference.image-alt}}" class="img-fluid">
-                            <a href="{{ reference.mainLink }}" target="_blank"></a>
+                            <img src="{{site.baseurl}}{{reference.image}}" alt="{{reference.image-alt}}" class="img-fluid" loading="lazy">
+                            <a href="{{ reference.mainLink }}" target="_blank" rel="noopener noreferrer"></a>
                           </div>
                             <div class="content">
                               {{reference.description | markdownify}}

@@ -34,11 +34,11 @@ about-bottom-heading: Julien Nioche — Founder & Director
 about-bottom-description: |-
   Julien founded DigitalPebble in 2008. With *over 20 years of software engineering and architecture* experience across open source, research and consultancy, he brings a rare combination of technical depth and genuine sustainability conviction to every engagement.
 
-  He is the author of [SPRUCE](https://opensourcegreenops.cloud/){:target='_blank'}, an open source tool for estimating the environmental footprint of running services on AWS, and has spent his career contributing to major open source projects at the [Apache Software Foundation](https://apache.org/){:target='_blank'}. With DigitalPebble, he has helped organisations across sectors understand, quantify and reduce both the financial and carbon impact of their cloud operations.
+  He is the author of [SPRUCE](https://opensourcegreenops.cloud/){:target='_blank' rel='noopener noreferrer'}, an open source tool for estimating the environmental footprint of running services on AWS, and has spent his career contributing to major open source projects at the [Apache Software Foundation](https://apache.org/){:target='_blank' rel='noopener noreferrer'}. With DigitalPebble, he has helped organisations across sectors understand, quantify and reduce both the financial and carbon impact of their cloud operations.
 
   What makes Julien's approach distinctive is a rare combination of *hands-on technical depth* and *genuine sustainability conviction*. He works across engineering, finance and sustainability teams — translating complex cloud data into clear, actionable recommendations that treat cost reduction and decarbonisation as two sides of the same problem, not competing priorities.
 
-  Julien is a *certified FinOps practitioner* from the [FinOps Foundation](https://www.finops.org/){:target='_blank'}, a Champion at the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank'} and a member of [Boavizta](https://boavizta.org/en){:target='_blank'} and the [Apache Software Foundation](https://apache.org/){:target='_blank'}.
+  Julien is a *certified FinOps practitioner* from the [FinOps Foundation](https://www.finops.org/){:target='_blank' rel='noopener noreferrer'}, a Champion at the [Green Software Foundation](https://champions.greensoftware.foundation/champions/julien-nioche/){:target='_blank' rel='noopener noreferrer'} and a member of [Boavizta](https://boavizta.org/en){:target='_blank' rel='noopener noreferrer'} and the [Apache Software Foundation](https://apache.org/){:target='_blank' rel='noopener noreferrer'}.
 
 references-heading: Testimonials
 references-image: "/images/CameraForensics.png"

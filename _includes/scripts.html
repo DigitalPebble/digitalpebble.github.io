@@ -1,8 +1,9 @@
-<script type="text/javascript" src="{{site.baseurl}}/slick/slick.min.js"></script>
+<!-- All scripts are deferred, so they execute in document order once the DOM is
+     parsed: jquery-3.js (head) -> slick -> bootstrap -> aos -> main.js.
+     main.js needs both jQuery.fn.slick and the AOS global, so it must stay last. -->
+<script defer src="{{site.baseurl}}/slick/slick.min.js"></script>
 <script defer src="{{site.baseurl}}/js/bootstrap/bootstrap.min.js"></script>
-<script defer src="{{site.baseurl}}/js/main.js"></script>
 
 {% include footer-scripts.html %}
 
-
-
+<script defer src="{{site.baseurl}}/js/main.js"></script>

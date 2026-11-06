@@ -1087,7 +1087,22 @@ footer{
         font-size: 17px;
         line-height: 32px;
         p{
+            // the global p rule in _typography sets black 18px text, which
+            // made posts look heavier than the grey 17px intended here
+            color: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            text-align: justify;
+            hyphens: auto;
             margin-bottom: 22px;
+            a{
+                font-size: inherit;
+            }
+            &.post_intro{
+                background: #f3f4f6;
+                border-radius: 6px;
+                padding: 20px 24px;
+            }
         }
         h2{
             color: $dark;

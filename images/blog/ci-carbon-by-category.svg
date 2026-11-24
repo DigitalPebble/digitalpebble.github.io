@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 428" width="720" height="428" role="img" aria-labelledby="t d" font-family="Helvetica Neue, Arial, sans-serif">
+<title id="t">Estimated carbon emissions of GitHub Actions by type of project</title>
+<desc id="d">Tonnes of CO2eq over 30 days for the 500 most starred repositories on GitHub. PyTorch (one repository): 9.30 t; AI agents and LLM apps: 5.03 t; Infrastructure, data and dev tools: 1.80 t; Languages, compilers and runtimes: 1.12 t; Other ML frameworks and models: 0.78 t; Web and UI frameworks: 0.65 t; End user apps and OS tools: 0.52 t; Lists, books and learning: 0.08 t; Other: 0.16 t.</desc>
+<rect width="720" height="428" fill="#ffffff"/>
+<text x="0" y="22" font-size="16" font-weight="600" fill="#1f2328">Carbon emissions by type of project</text>
+<text x="0" y="42" font-size="12.5" fill="#57606a">Tonnes of CO2eq, 500 most starred repositories, 24 October to 23 November 2026 (total 19.4 t)</text>
+<line x1="250.0" y1="58" x2="250.0" y2="388" stroke="#e5e7eb" stroke-width="1"/>
+<text x="250.0" y="406" font-size="11.5" fill="#6e7781" text-anchor="middle">0</text>
+<line x1="328.0" y1="58" x2="328.0" y2="388" stroke="#e5e7eb" stroke-width="1"/>
+<text x="328.0" y="406" font-size="11.5" fill="#6e7781" text-anchor="middle">2</text>
+<line x1="406.0" y1="58" x2="406.0" y2="388" stroke="#e5e7eb" stroke-width="1"/>
+<text x="406.0" y="406" font-size="11.5" fill="#6e7781" text-anchor="middle">4</text>
+<line x1="484.0" y1="58" x2="484.0" y2="388" stroke="#e5e7eb" stroke-width="1"/>
+<text x="484.0" y="406" font-size="11.5" fill="#6e7781" text-anchor="middle">6</text>
+<line x1="562.0" y1="58" x2="562.0" y2="388" stroke="#e5e7eb" stroke-width="1"/>
+<text x="562.0" y="406" font-size="11.5" fill="#6e7781" text-anchor="middle">8</text>
+<line x1="640.0" y1="58" x2="640.0" y2="388" stroke="#e5e7eb" stroke-width="1"/>
+<text x="640.0" y="406" font-size="11.5" fill="#6e7781" text-anchor="middle">10</text>
+<text x="240" y="86.5" font-size="13" fill="#1f2328" text-anchor="end">PyTorch (one repository)</text>
+<path d="M250,71.0 H608.70 Q612.70,71.0 612.70,75.0 V89.0 Q612.70,93.0 608.70,93.0 H250 Z" fill="#BC6554"><title>PyTorch (one repository): 9.30 t CO2eq (47.8%)</title></path>
+<text x="618.7" y="86.5" font-size="12.5" fill="#1f2328">9.30 t <tspan fill="#6e7781">48%</tspan></text>
+<text x="240" y="122.5" font-size="13" fill="#1f2328" text-anchor="end">AI agents and LLM apps</text>
+<path d="M250,107.0 H442.15 Q446.15,107.0 446.15,111.0 V125.0 Q446.15,129.0 442.15,129.0 H250 Z" fill="#BC6554"><title>AI agents and LLM apps: 5.03 t CO2eq (25.9%)</title></path>
+<text x="452.1" y="122.5" font-size="12.5" fill="#1f2328">5.03 t <tspan fill="#6e7781">26%</tspan></text>
+<text x="240" y="158.5" font-size="13" fill="#1f2328" text-anchor="end">Infrastructure, data and dev tools</text>
+<path d="M250,143.0 H316.27 Q320.27,143.0 320.27,147.0 V161.0 Q320.27,165.0 316.27,165.0 H250 Z" fill="#BC6554"><title>Infrastructure, data and dev tools: 1.80 t CO2eq (9.3%)</title></path>
+<text x="326.3" y="158.5" font-size="12.5" fill="#1f2328">1.80 t <tspan fill="#6e7781">9%</tspan></text>
+<text x="240" y="194.5" font-size="13" fill="#1f2328" text-anchor="end">Languages, compilers and runtimes</text>
+<path d="M250,179.0 H289.82 Q293.82,179.0 293.82,183.0 V197.0 Q293.82,201.0 289.82,201.0 H250 Z" fill="#BC6554"><title>Languages, compilers and runtimes: 1.12 t CO2eq (5.8%)</title></path>
+<text x="299.8" y="194.5" font-size="12.5" fill="#1f2328">1.12 t <tspan fill="#6e7781">6%</tspan></text>
+<text x="240" y="230.5" font-size="13" fill="#1f2328" text-anchor="end">Other ML frameworks and models</text>
+<path d="M250,215.0 H276.43 Q280.43,215.0 280.43,219.0 V233.0 Q280.43,237.0 276.43,237.0 H250 Z" fill="#BC6554"><title>Other ML frameworks and models: 0.78 t CO2eq (4.0%)</title></path>
+<text x="286.4" y="230.5" font-size="12.5" fill="#1f2328">0.78 t <tspan fill="#6e7781">4%</tspan></text>
+<text x="240" y="266.5" font-size="13" fill="#1f2328" text-anchor="end">Web and UI frameworks</text>
+<path d="M250,251.0 H271.49 Q275.49,251.0 275.49,255.0 V269.0 Q275.49,273.0 271.49,273.0 H250 Z" fill="#BC6554"><title>Web and UI frameworks: 0.65 t CO2eq (3.4%)</title></path>
+<text x="281.5" y="266.5" font-size="12.5" fill="#1f2328">0.65 t <tspan fill="#6e7781">3%</tspan></text>
+<text x="240" y="302.5" font-size="13" fill="#1f2328" text-anchor="end">End user apps and OS tools</text>
+<path d="M250,287.0 H266.12 Q270.12,287.0 270.12,291.0 V305.0 Q270.12,309.0 266.12,309.0 H250 Z" fill="#BC6554"><title>End user apps and OS tools: 0.52 t CO2eq (2.7%)</title></path>
+<text x="276.1" y="302.5" font-size="12.5" fill="#1f2328">0.52 t <tspan fill="#6e7781">3%</tspan></text>
+<text x="240" y="338.5" font-size="13" fill="#1f2328" text-anchor="end">Lists, books and learning</text>
+<path d="M250,323.0 H251.49 Q252.97,323.0 252.97,324.4871040275 V343.5128959725 Q252.97,345.0 251.49,345.0 H250 Z" fill="#BC6554"><title>Lists, books and learning: 0.08 t CO2eq (0.4%)</title></path>
+<text x="259.0" y="338.5" font-size="12.5" fill="#1f2328">0.08 t <tspan fill="#6e7781">&lt;1%</tspan></text>
+<text x="240" y="374.5" font-size="13" fill="#1f2328" text-anchor="end">Other</text>
+<path d="M250,359.0 H253.04 Q256.07,359.0 256.07,362.03720959099996 V377.96279040900004 Q256.07,381.0 253.04,381.0 H250 Z" fill="#BC6554"><title>Other: 0.16 t CO2eq (0.8%)</title></path>
+<text x="262.1" y="374.5" font-size="12.5" fill="#1f2328">0.16 t <tspan fill="#6e7781">&lt;1%</tspan></text>
+<line x1="250" y1="58" x2="250" y2="388" stroke="#8c959f" stroke-width="1"/>
+</svg>
